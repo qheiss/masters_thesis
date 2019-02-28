@@ -1,0 +1,3 @@
+
+sigma.parsers.json('{% static 'test9.json' %}', {
+  container: 'sigma-container',type: 'canvas' }

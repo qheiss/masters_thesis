@@ -1,0 +1,22 @@
+('myImage');
+myImageElement.src = '{% static 'progress.png&rand=' + Math.random()%}';
+
+setInterval(function() {
+    var myImageElement = document.getElementById('myImage');
+    myImageElement.src = '{% static 'progress.png&rand=' + Math.random()%}';
+    console.log(myImageElement);
+}, 1000);
+
+
+
+<script>
+ $(document).ready(function() {
+ 	 $("#responsecontainer").load("{% static 'progress.png' %}");
+   var refreshId = setInterval(function() {
+      $("#responsecontainer").load("{% static 'progress.png"+ "?randval=" + Math.random() + "'%}");
+   }, 1000);
+   $.ajaxSetup({ cache: false });
+});
+</script>
+
+<div id="responsecontainer">

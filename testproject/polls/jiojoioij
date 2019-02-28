@@ -1,0 +1,15 @@
+
+
+@shared_task(name="write_metadata_to_file")
+def write_metadata_to_file(metadata):
+    text_file = open("polls/static/metadata.txt", "w")
+    text_file.write("<table style=\"font-family: arial, sans-serif;border-collapse: collapse;width: 100%;\"><tr><th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\">Patient Group</th><th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\">Mean Survival</th><th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\">mean age at diagnosis</th><th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\">mean tumor size</th></tr>")
+    for elem in metadata:
+    	text_file.write("<tr>")
+    	text_file.write("<th>" + str(elem['group']) + "</th>")
+    	text_file.write("<th>" + str(elem['survival']) + "</th>")
+    	text_file.write("<th>" + str(elem['age']) + "</th>")
+    	text_file.write("<th>" + str(elem['size']) + "</th>")
+    	text_file.write("</tr>")
+    text_file.write("</table>")
+    text_file.close()

@@ -1,0 +1,81 @@
+LINE 205 : 2018-12-20 11:40:04,371 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 393 : 2018-12-20 11:40:05,114 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 250 : 2018-12-20 11:40:05,266 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 268 : 2018-12-20 11:40:05,267 [DEBUG   ] Start Enrichr using library: KEGG_2016
+LINE 269 : 2018-12-20 11:40:05,267 [INFO    ] Analysis name: test_name, Enrichr Library: KEGG_2016
+LINE 205 : 2018-12-20 11:40:05,270 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 393 : 2018-12-20 11:40:05,613 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 47
+LINE 210 : 2018-12-20 11:40:06,617 [DEBUG   ] Converted retries value: Retry(total=5, connect=None, read=None, redirect=None) -> Retry(total=Retry(total=5, connect=None, read=None, redirect=None), connect=None, read=None, redirect=None, status=None)
+LINE 205 : 2018-12-20 11:40:06,622 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 393 : 2018-12-20 11:40:07,086 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=15553185&filename=KEGG_2016.test_name.reports&backgroundType=KEGG_2016 HTTP/1.1" 200 None
+LINE 277 : 2018-12-20 11:40:08,103 [INFO    ] Save file of enrichment results: Job Id:8qzc5
+LINE 2515: 2018-12-20 11:40:08,188 [DEBUG   ] update_title_pos
+LINE 1254: 2018-12-20 11:40:08,201 [DEBUG   ] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=16.0 to DejaVu Sans ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+LINE 653 : 2018-12-20 11:40:08,205 [DEBUG   ] Assigning font /b'F1' = '/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 1254: 2018-12-20 11:40:08,212 [DEBUG   ] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=bold:stretch=normal:size=16.0 to DejaVu Sans ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf') with score of 0.000000.
+LINE 1254: 2018-12-20 11:40:08,218 [DEBUG   ] findfont: Matching :family=STIXGeneral:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXGeneral ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf') with score of 0.050000.
+LINE 1254: 2018-12-20 11:40:08,223 [DEBUG   ] findfont: Matching :family=STIXGeneral:style=italic:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXGeneral ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf') with score of 0.050000.
+LINE 1254: 2018-12-20 11:40:08,224 [DEBUG   ] findfont: Matching :family=STIXGeneral:style=normal:variant=normal:weight=bold:stretch=normal:size=10.0 to STIXGeneral ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf') with score of 0.000000.
+LINE 1254: 2018-12-20 11:40:08,229 [DEBUG   ] findfont: Matching :family=STIXNonUnicode:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXNonUnicode ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf') with score of 0.050000.
+LINE 1254: 2018-12-20 11:40:08,235 [DEBUG   ] findfont: Matching :family=STIXNonUnicode:style=italic:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXNonUnicode ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf') with score of 0.050000.
+LINE 1254: 2018-12-20 11:40:08,236 [DEBUG   ] findfont: Matching :family=STIXNonUnicode:style=normal:variant=normal:weight=bold:stretch=normal:size=10.0 to STIXNonUnicode ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf') with score of 0.000000.
+LINE 1254: 2018-12-20 11:40:08,242 [DEBUG   ] findfont: Matching :family=STIXSizeOneSym:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXSizeOneSym ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf') with score of 0.050000.
+LINE 1254: 2018-12-20 11:40:08,247 [DEBUG   ] findfont: Matching :family=STIXSizeTwoSym:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXSizeTwoSym ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf') with score of 0.050000.
+LINE 1254: 2018-12-20 11:40:08,252 [DEBUG   ] findfont: Matching :family=STIXSizeThreeSym:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXSizeThreeSym ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf') with score of 0.050000.
+LINE 1254: 2018-12-20 11:40:08,257 [DEBUG   ] findfont: Matching :family=STIXSizeFourSym:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXSizeFourSym ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf') with score of 0.050000.
+LINE 1254: 2018-12-20 11:40:08,262 [DEBUG   ] findfont: Matching :family=STIXSizeFiveSym:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXSizeFiveSym ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf') with score of 0.050000.
+LINE 1254: 2018-12-20 11:40:08,268 [DEBUG   ] findfont: Matching :family=cmsy10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmsy10 ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf') with score of 0.050000.
+LINE 1254: 2018-12-20 11:40:08,273 [DEBUG   ] findfont: Matching :family=cmr10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmr10 ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf') with score of 0.050000.
+LINE 1254: 2018-12-20 11:40:08,278 [DEBUG   ] findfont: Matching :family=cmtt10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmtt10 ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf') with score of 0.050000.
+LINE 1254: 2018-12-20 11:40:08,284 [DEBUG   ] findfont: Matching :family=cmmi10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmmi10 ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf') with score of 0.050000.
+LINE 1254: 2018-12-20 11:40:08,289 [DEBUG   ] findfont: Matching :family=cmb10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmb10 ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf') with score of 0.050000.
+LINE 1254: 2018-12-20 11:40:08,295 [DEBUG   ] findfont: Matching :family=cmss10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmss10 ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf') with score of 0.050000.
+LINE 1254: 2018-12-20 11:40:08,300 [DEBUG   ] findfont: Matching :family=cmex10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmex10 ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf') with score of 0.050000.
+LINE 1254: 2018-12-20 11:40:08,306 [DEBUG   ] findfont: Matching :family=DejaVu Sans:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+LINE 1254: 2018-12-20 11:40:08,312 [DEBUG   ] findfont: Matching :family=DejaVu Sans:style=italic:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf') with score of 0.150000.
+LINE 1254: 2018-12-20 11:40:08,313 [DEBUG   ] findfont: Matching :family=DejaVu Sans:style=normal:variant=normal:weight=bold:stretch=normal:size=10.0 to DejaVu Sans ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf') with score of 0.000000.
+LINE 1254: 2018-12-20 11:40:08,318 [DEBUG   ] findfont: Matching :family=DejaVu Sans Mono:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans Mono ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf') with score of 0.050000.
+LINE 1254: 2018-12-20 11:40:08,324 [DEBUG   ] findfont: Matching :family=DejaVu Sans Display:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans Display ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf') with score of 0.050000.
+LINE 653 : 2018-12-20 11:40:08,492 [DEBUG   ] Assigning font /b'F2' = '/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 1254: 2018-12-20 11:40:08,522 [DEBUG   ] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=bold:stretch=normal:size=24.0 to DejaVu Sans ('/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf') with score of 0.000000.
+LINE 703 : 2018-12-20 11:40:08,523 [DEBUG   ] Embedding font /home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 710 : 2018-12-20 11:40:08,524 [DEBUG   ] Writing TrueType font.
+LINE 703 : 2018-12-20 11:40:08,538 [DEBUG   ] Embedding font /home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 710 : 2018-12-20 11:40:08,538 [DEBUG   ] Writing TrueType font.
+LINE 2515: 2018-12-20 11:40:08,554 [DEBUG   ] update_title_pos
+LINE 2515: 2018-12-20 11:40:08,581 [DEBUG   ] update_title_pos
+LINE 2515: 2018-12-20 11:40:08,597 [DEBUG   ] update_title_pos
+LINE 653 : 2018-12-20 11:40:08,606 [DEBUG   ] Assigning font /b'F1' = '/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 653 : 2018-12-20 11:40:08,617 [DEBUG   ] Assigning font /b'F2' = '/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 703 : 2018-12-20 11:40:08,647 [DEBUG   ] Embedding font /home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 710 : 2018-12-20 11:40:08,648 [DEBUG   ] Writing TrueType font.
+LINE 703 : 2018-12-20 11:40:08,659 [DEBUG   ] Embedding font /home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 710 : 2018-12-20 11:40:08,660 [DEBUG   ] Writing TrueType font.
+LINE 287 : 2018-12-20 11:40:08,674 [INFO    ] Done.
+
+LINE 268 : 2018-12-20 11:40:08,674 [DEBUG   ] Start Enrichr using library: KEGG_2013
+LINE 269 : 2018-12-20 11:40:08,674 [INFO    ] Analysis name: test_name, Enrichr Library: KEGG_2013
+LINE 205 : 2018-12-20 11:40:08,676 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 393 : 2018-12-20 11:40:09,095 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 47
+LINE 210 : 2018-12-20 11:40:10,100 [DEBUG   ] Converted retries value: Retry(total=5, connect=None, read=None, redirect=None) -> Retry(total=Retry(total=5, connect=None, read=None, redirect=None), connect=None, read=None, redirect=None, status=None)
+LINE 205 : 2018-12-20 11:40:10,105 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu:80
+LINE 393 : 2018-12-20 11:40:10,553 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=15553187&filename=KEGG_2013.test_name.reports&backgroundType=KEGG_2013 HTTP/1.1" 200 2377
+LINE 277 : 2018-12-20 11:40:11,566 [INFO    ] Save file of enrichment results: Job Id:8qzc7
+LINE 2515: 2018-12-20 11:40:11,614 [DEBUG   ] update_title_pos
+LINE 653 : 2018-12-20 11:40:11,622 [DEBUG   ] Assigning font /b'F1' = '/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 653 : 2018-12-20 11:40:11,636 [DEBUG   ] Assigning font /b'F2' = '/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 703 : 2018-12-20 11:40:11,664 [DEBUG   ] Embedding font /home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 710 : 2018-12-20 11:40:11,664 [DEBUG   ] Writing TrueType font.
+LINE 703 : 2018-12-20 11:40:11,680 [DEBUG   ] Embedding font /home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 710 : 2018-12-20 11:40:11,680 [DEBUG   ] Writing TrueType font.
+LINE 2515: 2018-12-20 11:40:11,701 [DEBUG   ] update_title_pos
+LINE 2515: 2018-12-20 11:40:11,732 [DEBUG   ] update_title_pos
+LINE 2515: 2018-12-20 11:40:11,752 [DEBUG   ] update_title_pos
+LINE 653 : 2018-12-20 11:40:11,760 [DEBUG   ] Assigning font /b'F1' = '/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 653 : 2018-12-20 11:40:11,820 [DEBUG   ] Assigning font /b'F2' = '/home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 703 : 2018-12-20 11:40:11,848 [DEBUG   ] Embedding font /home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 710 : 2018-12-20 11:40:11,848 [DEBUG   ] Writing TrueType font.
+LINE 703 : 2018-12-20 11:40:11,864 [DEBUG   ] Embedding font /home/quirin/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 710 : 2018-12-20 11:40:11,864 [DEBUG   ] Writing TrueType font.
+LINE 287 : 2018-12-20 11:40:11,882 [INFO    ] Done.
+
